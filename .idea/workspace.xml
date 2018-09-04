@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cf6185e1-5554-436c-b1b9-c8dc9a75516f" name="Default Changelist" comment="" />
+    <list default="true" id="cf6185e1-5554-436c-b1b9-c8dc9a75516f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/app/controllers/articles_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/articles_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/article.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/article.rb" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/public/system/" />
@@ -63,13 +66,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="erb" value="731" />
-          <entry key="rb" value="440" />
+          <entry key="rb" value="509" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="RHTML" value="731" />
-          <entry key="Ruby" value="440" />
+          <entry key="Ruby" value="509" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.actions.runAnything" />
@@ -87,11 +90,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/articles_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+            <state relative-caret-position="300">
+              <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -122,17 +125,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/article.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="33" lean-forward="true" selection-start-column="33" selection-end-column="33" />
+            <state relative-caret-position="45">
+              <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/articles/new.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+              <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -181,10 +184,11 @@
       <list>
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/articles/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/articles_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/welcome/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/articles/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/articles/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/models/article.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/articles_controller.rb" />
       </list>
     </option>
   </component>
@@ -233,6 +237,12 @@
               <item name="blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="blog" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="blog" type="b2602c69:ProjectViewProjectNode" />
@@ -403,12 +413,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1536083343616</updated>
-      <workItem from="1536083344842" duration="5988000" />
+      <workItem from="1536083344842" duration="7140000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5988000" />
+    <option name="totallyTimeSpent" value="7140000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1984" y="-11" width="1857" height="1092" extended-state="6" />
@@ -471,13 +481,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/article.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="33" lean-forward="true" selection-start-column="33" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20180904183441_create_articles.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -494,13 +497,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/application_record.rb">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/articles_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/welcome/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
@@ -519,7 +515,21 @@
     <entry file="file://$PROJECT_DIR$/app/views/articles/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+          <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/article.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/articles_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
         </state>
       </provider>
     </entry>
